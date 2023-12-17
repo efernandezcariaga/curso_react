@@ -1,2 +1,3 @@
-# curso_react
-React: De cero a experto - Curso udemy
+# Curso React
+React: De cero a experto - Curso udemy <br>
+Profesor: Fernando Herrera
