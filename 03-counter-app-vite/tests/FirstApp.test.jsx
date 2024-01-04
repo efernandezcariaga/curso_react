@@ -10,7 +10,7 @@ describe('Pruebas en <Fisrt App />', () => {
 
         // expect(container).toMatchSnapshot();
 
-    })
+    });
 
     test('Debe de mostrar el titulo en un h1', () => {
 
@@ -37,5 +37,5 @@ describe('Pruebas en <Fisrt App />', () => {
         )
 
         expect(getAllByText(subTitle).length).toBe(2);
-    })
+    });
 })

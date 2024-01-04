@@ -14,7 +14,7 @@ describe('Pruenas en 09-promesas', () => {
                 });
                 done();
             })
-    })
+    });
 
     test('getHeroeByIdAsync debe de obtener un error si heroe no existe', (done) => {
         
@@ -28,5 +28,5 @@ describe('Pruenas en 09-promesas', () => {
                 expect(error).toBe(`No se pudo encontrar el heroe ${id}`);
                 done();
             });
-    })
+    });
 })

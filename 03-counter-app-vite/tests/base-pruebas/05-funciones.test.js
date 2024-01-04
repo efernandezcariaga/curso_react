@@ -31,5 +31,5 @@ describe('Pruebas en 05-funciones', () => {
             uid: "ABC567",
             username: name
         })
-    })
+    });
 })
