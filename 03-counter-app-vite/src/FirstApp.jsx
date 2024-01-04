@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 //     title: "Ezequiel",
 // };
 
-const getResult = () => {
-    return "Ezequiel"
-}
+// const getResult = () => {
+//     return "Ezequiel"
+// }
 
 export const FirstApp = ( {title, subTitle, name} ) => {
     // console.log(props);
@@ -18,23 +18,23 @@ export const FirstApp = ( {title, subTitle, name} ) => {
 
     return (
         <>
-            <h1>{getResult()}</h1>
-            <h2>{ title }</h2>
+            {/* <h1>{getResult()}</h1> */}
+            <h1 data-testid="test-title">{ title }</h1>
+            <p>{subTitle}</p>
             <p>{subTitle}</p>
             <p>{name}</p>
             {/* <code>{ JSON.stringify(newMessage) }</code> */}
-            <p>Soy un subtitulo</p>
         </>
     )
 }
 
 FirstApp.propTypes = {
-    subTitle: PropTypes.number.isRequired,
+    subTitle: PropTypes.string,
     title: PropTypes.string.isRequired,
 }
 
 FirstApp.defaultProps = {
     name: "Ezequiel Fernandez Cariaga",
     subTitle: "No hay subtitulo",
-    title: "No hay titulo",
+    // title: "No hay titulo",
 }

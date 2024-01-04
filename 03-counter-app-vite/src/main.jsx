@@ -9,7 +9,7 @@ import './styles.css'; //Asi importo estilos CSS en react. En este caso se hizo 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         {/* <HelloWorldApp /> */}
-        {/* <FirstApp  subTitle={123}/> */}
+        {/* <FirstApp  title="Hola, soy Vegeta"/> */}
         <CounterApp value={0}/>
     </React.StrictMode>
 )
