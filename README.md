@@ -20,7 +20,7 @@ Profesor: Fernando Herrera
 -Async - Await  
 -Operador ternario  
 
-### Sección 4
+### Sección 4 (CounterApp)
 -Primera APP  
 -Creación de componentes funcionales  
 -Propiedades - Props  
@@ -30,7 +30,7 @@ Profesor: Fernando Herrera
 -Introducción general a los Hooks  
 -useState  
 
-### Sección 5
+### Sección 5 (Testing CounterApp)
 -AAA --> Arrange, Act, Assert  
 -Jest  
 -Expect  
@@ -40,7 +40,7 @@ Profesor: Fernando Herrera
 -Revisión de elementos renderizados del componente  
 -Simulación de eventos  
 
-### Sección 6
+### Sección 6 (GifExpertApp)
 -Custom Hooks  
 -Fetch hacia una API  
 -Comunicación entre componentes  
@@ -49,3 +49,10 @@ Profesor: Fernando Herrera
 -Enviar métodos como argumentos  
 -Creación de listados  
 -keys  
+
+### Sección 7
+-Backups a repos de Git
+-Subida de repos a Github
+-Uso de Github Pages
+-Despliegue de aplicación de React
+-Generación de Build de producción de la aplicación
