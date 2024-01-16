@@ -64,3 +64,15 @@ Profesor: Fernando Herrera
 -Simulación de eventos en inputs y formularios
 -Simulación de llamada a eventos
 -Evaluación de existencia de elementos en un componente
+
+### Sección 9 (HooksApp)
+-customHooks
+-useState
+-useCounter - Personalizado
+-useEffect y sus precauciones
+-useRef
+-useFetch - Personalizado + optimizaciones
+-useLayoutEffect
+-Memo
+-useMemo
+-useCallback
