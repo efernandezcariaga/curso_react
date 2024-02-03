@@ -76,3 +76,11 @@ Profesor: Fernando Herrera
 -Memo  
 -useMemo  
 -useCallback  
+
+### Sección 10 (TODOs App con Reducer)
+-useReducer  
+-Reducers  
+-Teoria de reducer  
+-Aplicación de TODOs App  
+-CRUD local  
+
