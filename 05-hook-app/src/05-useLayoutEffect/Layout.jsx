@@ -1,8 +1,8 @@
 import { useFetch, useCounter } from '../hooks'
-import { Joke, LoadingJoke } from './';
+import { Joke, LoadingJoke } from '../03-examples';
 
 
-export const MultipleCustomHooks = () => {
+export const Layout = () => {
 
     const {counter, increment} = useCounter(1);
     const {data, isLoading, hasError} = useFetch(`https://official-joke-api.appspot.com/jokes/${counter}`);
