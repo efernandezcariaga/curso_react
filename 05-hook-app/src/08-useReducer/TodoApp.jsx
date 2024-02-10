@@ -1,49 +1,22 @@
-import { useEffect, useReducer } from "react";
-import { todoReducer, TodoAdd, TodoList } from './';
-
-const initialState = [
-
-];
-
-const init = () => {
-    return JSON.parse(sessionStorage.getItem('todos')) || [];
-}
+import { useTodo } from '../hooks';
+import { TodoAdd, TodoList } from './';
 
 export const TodoApp = () => {
     
-    const [todos, dispatch] = useReducer(todoReducer , initialState, init );
-
-    useEffect(() => {
-        sessionStorage.setItem('todos', JSON.stringify(todos));
-    }, [todos])
-    
-
-    const handleNewTodo = (todo) => {
-        const action = {
-            type: '[TODO] Add Todo',
-            payload: todo,
-        }
-
-        dispatch(action);
-    }
-
-    const handleDeleteTodo = (id) => {
-        const action = {
-            type: '[TODO] Remove Todo',
-            payload: id,
-        }
-
-        dispatch(action);
-    }
+    const {todos, todosCount, pendingTodosCount, handleNewTodo, handleDeleteTodo, handleToggleTodo} = useTodo();
 
     return (
         <>
-            <h1>TodoApp</h1>
+            <h1>TodoApp: {todosCount}, <small>Pendientes: {pendingTodosCount}</small></h1>
             <hr />
 
             <div className="row">
                 <div className="col-7">
-                    <TodoList todos={todos} onDeleteTodo={handleDeleteTodo}/>
+                    <TodoList 
+                        todos={todos} 
+                        onDeleteTodo={handleDeleteTodo}
+                        onToggleTodo={handleToggleTodo}    
+                    />
                 </div>
                 <div className="col-5">
                     <h4>Agregar TODO</h4>
