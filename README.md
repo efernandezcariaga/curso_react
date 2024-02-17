@@ -92,3 +92,7 @@ Profesor: Fernando Herrera
 -Links y NavLinks  
 -CreateContext  
 -SPA  
+
+### Sección 12
+-Pruebas sobre Hooks y CustomHooks  
+
