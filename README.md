@@ -93,6 +93,9 @@ Profesor: Fernando Herrera
 -CreateContext  
 -SPA  
 
-### Sección 12
+### Sección 12 (Testing TODOs App)
 -Pruebas sobre Hooks y CustomHooks  
 
+### Sección 13
+-Listado de customHooks  
+-Codigo reutilizable  
